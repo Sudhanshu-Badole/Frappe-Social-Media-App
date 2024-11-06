@@ -1,0 +1,80 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-11-03 00:01:30.560944",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "user_details_section",
+  "user",
+  "followers_and_following_section",
+  "followers_column",
+  "followers_list",
+  "following_list_column",
+  "following_list"
+ ],
+ "fields": [
+  {
+   "fieldname": "user_details_section",
+   "fieldtype": "Section Break",
+   "label": "User Details"
+  },
+  {
+   "fieldname": "user",
+   "fieldtype": "Link",
+   "label": "User",
+   "options": "User"
+  },
+  {
+   "fieldname": "followers_and_following_section",
+   "fieldtype": "Section Break",
+   "label": "Followers and Following"
+  },
+  {
+   "fieldname": "followers_column",
+   "fieldtype": "Column Break",
+   "label": "Followers"
+  },
+  {
+   "fieldname": "followers_list",
+   "fieldtype": "Table",
+   "label": "Followers List",
+   "options": "Followers"
+  },
+  {
+   "fieldname": "following_list_column",
+   "fieldtype": "Column Break",
+   "label": "Following List"
+  },
+  {
+   "fieldname": "following_list",
+   "fieldtype": "Table",
+   "label": "Following List",
+   "options": "Following"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-11-03 00:07:10.377392",
+ "modified_by": "Administrator",
+ "module": "Social Media",
+ "name": "User Profile Details",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
